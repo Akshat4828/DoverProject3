@@ -1,0 +1,10 @@
+﻿<h2>@ViewBag.msg</h2>
+<hr/>
+<pre> 
+ <a asp-controller="Customers" asp-action="Index">Customers Details</a>
+</pre>
+<hr/>
+@using (Html.BeginForm())
+            {
+                <button asp-controller="AdminAccount" asp-action="Index">Logout</button>
+            }
